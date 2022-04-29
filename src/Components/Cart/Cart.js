@@ -18,9 +18,9 @@ const Cart = () => {
 
         const objOrder = {
             buyer: {
-                name: 'Sebastian',
-                phone: '123456789',
-                email: 'sebastian@test.com'
+                name: 'Fernando',
+                phone: '45634642',
+                email: 'fernando@prueba.com'
             },
             items: cart,
             total: getTotal()

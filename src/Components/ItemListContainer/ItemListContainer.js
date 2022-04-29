@@ -3,7 +3,6 @@ import { useState,
     useEffect 
 } from 'react'
 import ItemList from '../ItemList/ItemList'
-/* import { getProducts } from '../../asyncmock' */
  import { getProducts } from '../../services/firebase/firestore' 
 import { Link, useParams } from 'react-router-dom'
 import { useAsync } from '../../hooks/useAsync'
