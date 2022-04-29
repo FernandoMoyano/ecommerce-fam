@@ -1,5 +1,5 @@
 # Desarrollo del proyecto
-Proyecto Final para el curso de ReactJS de la platafomra Coder House (2022). La aplicación Permite seleccionar ciertos productos, navegar a sus detalles, agregarlos al carrito, poder acceder a él, simular la compra de los productos.
+Proyecto Final para el curso de ReactJS de la platafomra Coder House (2022). La aplicación ecommerce Permite seleccionar ciertos productos, navegar a sus detalles, agregarlos al carrito, poder acceder a él, simular la compra de los productos utilizando como servicio backend a firebase pudiendo generar una orden de compras.
 
 
 # Getting Started with Create React App
