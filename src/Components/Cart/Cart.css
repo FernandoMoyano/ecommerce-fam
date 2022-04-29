@@ -5,7 +5,6 @@
     padding-top: 12px;
     font-size: 12px;
     background: #0c8129;
- /*    border-radius: 8px; */
     flex: none;
     display: inline-block;
     order: 1;
@@ -19,8 +18,5 @@
     border-style: none;
     cursor: pointer;
     outline: inherit;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+   
 }

@@ -20,7 +20,6 @@
   text-decoration: none;
   border-radius: 25;
   margin: 0 50px;
-  /* TODO */
   width: auto;
   padding: 12px;
   font-size: 17px;
@@ -75,9 +74,43 @@
 }
 
 @media screen and (max-width:720px){ 
-  .Categories{
-    flex-direction: column;
+ 
+
+  .NavBar {
+    display: flex;
+    width: 100%;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background: rgb(0, 8, 4);
+  }
+  .categories{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
+
+  .Option {
+
+    text-decoration: none;
+    border-radius: 25;
+    margin: 0 15px;
+    width: auto;
+    font-size: 10px;
+    background: #14b717;
+    flex: none;
+    display: flex;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+    border-style: none;
+    cursor: pointer;
+    outline: inherit;
+  }
   
 }

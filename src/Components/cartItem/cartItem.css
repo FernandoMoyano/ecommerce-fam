@@ -34,7 +34,7 @@
     width: auto;
     padding: 12px;
     font-size: 16px;
-    background: #d01d6d;
+    background: #df0b0b;
     flex: none;
     display: flex;
     order: 1;
@@ -48,10 +48,7 @@
     border-style: none;
     cursor: pointer;
     outline: inherit;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+   
 }
 
 .ItemFooterCartItem {
