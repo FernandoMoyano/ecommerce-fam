@@ -27,21 +27,10 @@ const NavBar = () => {
           </Link>
           <div className="Categories">
              
-             
-             {/*  {
-                  categories.map(cat => 
-                      <NavLink 
-                          key={cat.id} 
-                          to={`/category/${cat.id}`} 
-                          className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}
-                      >
-                          {cat.description}
-                      </NavLink>)
-              } */}
 
               <Link to='/category/monitores' className='Option'>monitores</Link>
-                <Link to='/category/placas de video' className='Option'>placas de video</Link>
-                <Link to='/category/butacas' className='Option'>butacas</Link>
+              <Link to='/category/placas de video' className='Option'>placas de video</Link>
+              <Link to='/category/butacas' className='Option'>butacas</Link>
 
 
           </div>

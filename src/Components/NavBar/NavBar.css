@@ -1,6 +1,5 @@
 
 .NavBar {
-
   display: flex;
   background: transparent;
   justify-content: space-between;
@@ -10,7 +9,7 @@
 }
 
 .Categories {
-/*   width: 100%; */
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -42,11 +41,10 @@
 }
 
 .ActiveOption {
-  /* color: #8C30F5; */
+
   text-decoration: none;
   border-radius: 25;
   margin: 0 50px;
-  /* TODO */
   width: auto;
   padding: 12px;
   font-size: 8px;

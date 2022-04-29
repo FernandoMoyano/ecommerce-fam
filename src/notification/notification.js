@@ -14,7 +14,6 @@ const Notification = ({ message, severity, otherClass}) => {
       height: 'auto',
       padding: '10px 20px 10px 20px',
       color: 'white',
-    //   backgroundColor: severity === 'success' ? 'green' : 'red',
       borderRadius: '10px'
     }
   
@@ -30,7 +29,6 @@ const Notification = ({ message, severity, otherClass}) => {
 
     return(
       <div {...config}
-        // style={notificationStyles} className={`${severity === 'success' ? 'Success' : 'Error'} ${otherClass || ''}`}
         >
         {message}
       </div>
